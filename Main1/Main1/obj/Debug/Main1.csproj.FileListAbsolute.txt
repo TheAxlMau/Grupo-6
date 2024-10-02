@@ -1,0 +1,11 @@
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\bin\Debug\Main1.exe.config
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\bin\Debug\Main1.exe
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\bin\Debug\Main1.pdb
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.AssemblyReference.cache
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.SuggestedBindingRedirects.cache
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.Form1.resources
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.Properties.Resources.resources
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.GenerateResource.cache
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.exe
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.pdb
