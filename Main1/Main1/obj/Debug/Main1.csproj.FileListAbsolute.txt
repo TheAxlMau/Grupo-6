@@ -19,3 +19,4 @@ C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.GenerateResour
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.CoreCompileInputs.cache
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.exe
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.pdb
+C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.Factura.resources
