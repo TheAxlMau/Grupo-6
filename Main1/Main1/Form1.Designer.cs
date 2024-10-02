@@ -55,7 +55,7 @@
             // 
             // bttnCambiarTexto2
             // 
-            this.bttnCambiarTexto2.Location = new System.Drawing.Point(98, 257);
+            this.bttnCambiarTexto2.Location = new System.Drawing.Point(450, 307);
             this.bttnCambiarTexto2.Name = "bttnCambiarTexto2";
             this.bttnCambiarTexto2.Size = new System.Drawing.Size(131, 51);
             this.bttnCambiarTexto2.TabIndex = 2;
@@ -66,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(373, 274);
+            this.label2.Location = new System.Drawing.Point(645, 324);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 3;
