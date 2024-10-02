@@ -26,5 +26,10 @@ namespace Main1
         {
             label2.Text = "hola";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label3.Text = "hola";
+        }
     }
 }

@@ -20,3 +20,4 @@ C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.CoreCompileInp
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.exe
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.pdb
 C:\Users\theax\Desktop\Grupo-6\Main1\Main1\obj\Debug\Main1.Factura.resources
+C:\Users\crist\OneDrive\Escritorio\Grupo-6\Main1\Main1\obj\Debug\Main1.Factura.resources
