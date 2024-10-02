@@ -30,6 +30,8 @@
         {
             this.bttnCambiarTexto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.bttnCambiarTexto2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bttnCambiarTexto
@@ -51,11 +53,32 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
+            // bttnCambiarTexto2
+            // 
+            this.bttnCambiarTexto2.Location = new System.Drawing.Point(98, 257);
+            this.bttnCambiarTexto2.Name = "bttnCambiarTexto2";
+            this.bttnCambiarTexto2.Size = new System.Drawing.Size(131, 51);
+            this.bttnCambiarTexto2.TabIndex = 2;
+            this.bttnCambiarTexto2.Text = "Cambiar Texto 2";
+            this.bttnCambiarTexto2.UseVisualStyleBackColor = true;
+            this.bttnCambiarTexto2.Click += new System.EventHandler(this.bttnCambiarTexto2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(373, 274);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 474);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.bttnCambiarTexto2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bttnCambiarTexto);
             this.Name = "Form1";
@@ -69,6 +92,8 @@
 
         private System.Windows.Forms.Button bttnCambiarTexto;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bttnCambiarTexto2;
+        private System.Windows.Forms.Label label2;
     }
 }
 
