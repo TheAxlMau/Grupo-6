@@ -21,5 +21,10 @@ namespace Main1
         {
             label1.Text = "uwu";
         }
+
+        private void bttnCambiarTexto2_Click(object sender, EventArgs e)
+        {
+            label2.Text = "hola";
+        }
     }
 }
