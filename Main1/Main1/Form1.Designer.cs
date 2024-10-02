@@ -34,9 +34,10 @@
             // 
             // bttnCambiarTexto
             // 
-            this.bttnCambiarTexto.Location = new System.Drawing.Point(98, 142);
+            this.bttnCambiarTexto.Location = new System.Drawing.Point(74, 115);
+            this.bttnCambiarTexto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttnCambiarTexto.Name = "bttnCambiarTexto";
-            this.bttnCambiarTexto.Size = new System.Drawing.Size(131, 66);
+            this.bttnCambiarTexto.Size = new System.Drawing.Size(98, 54);
             this.bttnCambiarTexto.TabIndex = 0;
             this.bttnCambiarTexto.Text = "Cambiar Texto";
             this.bttnCambiarTexto.UseVisualStyleBackColor = true;
@@ -45,19 +46,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(373, 176);
+            this.label1.Location = new System.Drawing.Point(280, 143);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 474);
+            this.ClientSize = new System.Drawing.Size(675, 385);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bttnCambiarTexto);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
