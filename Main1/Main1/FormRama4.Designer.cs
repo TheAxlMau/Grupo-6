@@ -38,7 +38,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "label2";
             // 
             // FormRama4
             // 
