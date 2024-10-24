@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Almacen.cs">
+    <Compile Include="AdminAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Almacen.Designer.cs">
-      <DependentUpon>Almacen.cs</DependentUpon>
+    <Compile Include="AdminAlmacen.Designer.cs">
+      <DependentUpon>AdminAlmacen.cs</DependentUpon>
     </Compile>
     <Compile Include="Factura.cs">
       <SubType>Form</SubType>
@@ -90,8 +90,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Almacen.resx">
-      <DependentUpon>Almacen.cs</DependentUpon>
+    <EmbeddedResource Include="AdminAlmacen.resx">
+      <DependentUpon>AdminAlmacen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>

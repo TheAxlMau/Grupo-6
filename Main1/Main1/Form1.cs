@@ -95,7 +95,7 @@ namespace Main1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            AbrirFormHijo(new Almacen());
+            AbrirFormHijo(new AdminAlmacen());
         }
     }
 }

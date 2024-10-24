@@ -57,3 +57,4 @@ C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Produc
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.FormCliente.resources
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Almacen.resources
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Inventario.resources
+C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.AdminAlmacen.resources

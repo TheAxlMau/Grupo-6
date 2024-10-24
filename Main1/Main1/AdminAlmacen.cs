@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Main1
 {
-    public partial class Almacen : Form
+    public partial class AdminAlmacen : Form
     {
-        public Almacen()
+        public AdminAlmacen()
         {
             InitializeComponent();
         }
