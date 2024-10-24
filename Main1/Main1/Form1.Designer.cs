@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.bttnCambiarTexto = new System.Windows.Forms.Button();
+            this.Productos = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.bttnCambiarTexto2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,6 +43,7 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.BarraTitulo.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -53,21 +54,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // bttnCambiarTexto
+            // Productos
             // 
-            this.bttnCambiarTexto.Location = new System.Drawing.Point(53, 177);
-            this.bttnCambiarTexto.Margin = new System.Windows.Forms.Padding(2);
-            this.bttnCambiarTexto.Name = "bttnCambiarTexto";
-            this.bttnCambiarTexto.Size = new System.Drawing.Size(98, 54);
-            this.bttnCambiarTexto.TabIndex = 0;
-            this.bttnCambiarTexto.Text = "Cambiar Texto";
-            this.bttnCambiarTexto.UseVisualStyleBackColor = true;
-            this.bttnCambiarTexto.Click += new System.EventHandler(this.bttnCambiarTexto_Click);
+            this.Productos.FlatAppearance.BorderSize = 0;
+            this.Productos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.Productos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Productos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Productos.Location = new System.Drawing.Point(38, 168);
+            this.Productos.Margin = new System.Windows.Forms.Padding(2);
+            this.Productos.Name = "Productos";
+            this.Productos.Size = new System.Drawing.Size(162, 44);
+            this.Productos.TabIndex = 0;
+            this.Productos.Text = "Cambiar Texto";
+            this.Productos.UseVisualStyleBackColor = true;
+            this.Productos.Click += new System.EventHandler(this.bttnCambiarTexto_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(212, 139);
+            this.label1.Location = new System.Drawing.Point(272, 139);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
@@ -95,10 +100,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 98);
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(38, 230);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 54);
+            this.button1.Size = new System.Drawing.Size(162, 44);
             this.button1.TabIndex = 2;
             this.button1.Text = "Cambiar Texto 2";
             this.button1.UseVisualStyleBackColor = true;
@@ -107,7 +116,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(249, 198);
+            this.label3.Location = new System.Drawing.Point(272, 306);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
@@ -116,7 +125,7 @@
             // 
             // BarraTitulo
             // 
-            this.BarraTitulo.BackColor = System.Drawing.Color.ForestGreen;
+            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(26)))), ((int)(((byte)(9)))));
             this.BarraTitulo.Controls.Add(this.btnMinimizar);
             this.BarraTitulo.Controls.Add(this.btnMaximizar);
             this.BarraTitulo.Controls.Add(this.btnCerrar);
@@ -129,8 +138,11 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(50)))), ((int)(((byte)(37)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(63)))), ((int)(((byte)(52)))));
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.Productos);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 35);
             this.panel1.Name = "panel1";
@@ -139,11 +151,11 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(224)))), ((int)(((byte)(175)))));
-            this.panel2.Controls.Add(this.bttnCambiarTexto);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(181)))), ((int)(((byte)(157)))));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(200, 35);
             this.panel2.Name = "panel2";
@@ -200,11 +212,27 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(22, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 93);
+            this.pictureBox1.Size = new System.Drawing.Size(156, 146);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(38, 291);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(162, 44);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Cambiar Texto 3 ";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -233,7 +261,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bttnCambiarTexto;
+        private System.Windows.Forms.Button Productos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bttnCambiarTexto2;
         private System.Windows.Forms.Label label2;
@@ -247,6 +275,7 @@
         private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
