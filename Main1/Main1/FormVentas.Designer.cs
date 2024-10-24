@@ -57,7 +57,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 18);
+            this.label1.Location = new System.Drawing.Point(432, 107);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 26);
@@ -135,7 +135,7 @@
             this.ColumnMetodoDePago,
             this.ColumnTotal,
             this.ColumnFecha});
-            this.dataGridView1.Location = new System.Drawing.Point(32, 187);
+            this.dataGridView1.Location = new System.Drawing.Point(233, 276);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -187,7 +187,7 @@
             // 
             // bttnRegistrar
             // 
-            this.bttnRegistrar.Location = new System.Drawing.Point(32, 149);
+            this.bttnRegistrar.Location = new System.Drawing.Point(233, 238);
             this.bttnRegistrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttnRegistrar.Name = "bttnRegistrar";
             this.bttnRegistrar.Size = new System.Drawing.Size(64, 25);
@@ -197,7 +197,7 @@
             // 
             // bttnAnular
             // 
-            this.bttnAnular.Location = new System.Drawing.Point(110, 149);
+            this.bttnAnular.Location = new System.Drawing.Point(311, 238);
             this.bttnAnular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttnAnular.Name = "bttnAnular";
             this.bttnAnular.Size = new System.Drawing.Size(68, 25);
@@ -217,7 +217,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(32, 46);
+            this.groupBox1.Location = new System.Drawing.Point(233, 135);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -270,7 +270,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(181)))), ((int)(((byte)(157)))));
-            this.ClientSize = new System.Drawing.Size(670, 378);
+            this.ClientSize = new System.Drawing.Size(1100, 615);
             this.Controls.Add(this.bttnAnular);
             this.Controls.Add(this.bttnRegistrar);
             this.Controls.Add(this.dataGridView1);
