@@ -25,19 +25,14 @@ namespace Main1
 
         private void bttnCambiarTexto2_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
 
->>>>>>> 46fa2b7fb2b3d595f463631624a74a6f1fafe48d
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            AbrirFormHijo(new FormVentas());
-=======
 
->>>>>>> 46fa2b7fb2b3d595f463631624a74a6f1fafe48d
+            AbrirFormHijo(new FormVentas());
+
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -85,10 +80,7 @@ namespace Main1
             this.panel2.Controls.Add(fh);
             this.panel2.Tag = fh;
             fh.Show();
-<<<<<<< HEAD
-=======
 
->>>>>>> 46fa2b7fb2b3d595f463631624a74a6f1fafe48d
         }
     }
 }
