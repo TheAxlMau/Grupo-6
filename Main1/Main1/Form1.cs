@@ -92,5 +92,10 @@ namespace Main1
         {
             AbrirFormHijo(new Inventario());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new Almacen());
+        }
     }
 }
