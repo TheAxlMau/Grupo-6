@@ -187,7 +187,7 @@
             // 
             // bttnRegistrar
             // 
-            this.bttnRegistrar.Location = new System.Drawing.Point(146, 295);
+            this.bttnRegistrar.Location = new System.Drawing.Point(141, 285);
             this.bttnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.bttnRegistrar.Name = "bttnRegistrar";
             this.bttnRegistrar.Size = new System.Drawing.Size(101, 41);
@@ -197,7 +197,7 @@
             // 
             // bttnAnular
             // 
-            this.bttnAnular.Location = new System.Drawing.Point(300, 295);
+            this.bttnAnular.Location = new System.Drawing.Point(292, 285);
             this.bttnAnular.Margin = new System.Windows.Forms.Padding(2);
             this.bttnAnular.Name = "bttnAnular";
             this.bttnAnular.Size = new System.Drawing.Size(96, 41);
