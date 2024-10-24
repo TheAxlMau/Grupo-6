@@ -29,6 +29,7 @@ namespace Main1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            AbrirFormHijo(new FormVentas());
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
