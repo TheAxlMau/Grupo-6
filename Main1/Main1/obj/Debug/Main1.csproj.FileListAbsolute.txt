@@ -34,3 +34,16 @@ C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.CoreCompileInputs.cache
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.exe
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.pdb
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\bin\Debug\Main1.exe.config
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\bin\Debug\Main1.exe
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\bin\Debug\Main1.pdb
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.AssemblyReference.cache
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.SuggestedBindingRedirects.cache
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Factura.resources
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Form1.resources
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.FormRama4.resources
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Properties.Resources.resources
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.GenerateResource.cache
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.csproj.CoreCompileInputs.cache
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.exe
+C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.pdb
