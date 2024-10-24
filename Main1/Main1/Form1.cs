@@ -25,20 +25,12 @@ namespace Main1
 
         private void bttnCambiarTexto2_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -86,11 +78,7 @@ namespace Main1
             this.panel2.Controls.Add(fh);
             this.panel2.Tag = fh;
             fh.Show();
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
         }
     }
 }
