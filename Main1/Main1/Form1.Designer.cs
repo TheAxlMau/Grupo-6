@@ -44,6 +44,9 @@
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.BarraTitulo.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -60,10 +63,10 @@
             this.Productos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
             this.Productos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Productos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Productos.Location = new System.Drawing.Point(38, 168);
+            this.Productos.Location = new System.Drawing.Point(2, 168);
             this.Productos.Margin = new System.Windows.Forms.Padding(2);
             this.Productos.Name = "Productos";
-            this.Productos.Size = new System.Drawing.Size(162, 44);
+            this.Productos.Size = new System.Drawing.Size(198, 44);
             this.Productos.TabIndex = 0;
             this.Productos.Text = "Cambiar Texto";
             this.Productos.UseVisualStyleBackColor = true;
@@ -104,10 +107,10 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(38, 230);
+            this.button1.Location = new System.Drawing.Point(0, 230);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 44);
+            this.button1.Size = new System.Drawing.Size(200, 44);
             this.button1.TabIndex = 2;
             this.button1.Text = "Cambiar Texto 2";
             this.button1.UseVisualStyleBackColor = true;
@@ -139,6 +142,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(63)))), ((int)(((byte)(52)))));
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.Productos);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -226,13 +232,37 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(38, 291);
+            this.button2.Location = new System.Drawing.Point(0, 291);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 44);
+            this.button2.Size = new System.Drawing.Size(200, 44);
             this.button2.TabIndex = 3;
             this.button2.Text = "Cambiar Texto 3 ";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.panel3.Location = new System.Drawing.Point(0, 168);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 44);
+            this.panel3.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.panel4.Location = new System.Drawing.Point(0, 230);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 44);
+            this.panel4.TabIndex = 5;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.panel5.Location = new System.Drawing.Point(0, 291);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 44);
+            this.panel5.TabIndex = 5;
             // 
             // Form1
             // 
@@ -276,6 +306,9 @@
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
