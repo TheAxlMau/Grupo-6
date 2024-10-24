@@ -20,17 +20,17 @@ namespace Main1
 
         private void bttnCambiarTexto_Click(object sender, EventArgs e)
         {
-            label1.Text = "uwu";
+            AbrirFormHijo(new Productos());
         }
 
         private void bttnCambiarTexto2_Click(object sender, EventArgs e)
         {
-            label2.Text = "hola";
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label3.Text = "hola";
+
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace Main1
 
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            this.WindowState= FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Minimized;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -66,6 +66,19 @@ namespace Main1
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void AbrirFormHijo(object formhijo)
+        {
+            if (this.panel2.Controls.Count > 0)
+                this.panel2.Controls.RemoveAt(0);
+            Form fh = formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panel2.Controls.Add(fh);
+            this.panel2.Tag = fh;
+            fh.Show();
+
         }
     }
 }
