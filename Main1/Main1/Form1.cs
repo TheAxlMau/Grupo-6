@@ -54,7 +54,7 @@ namespace Main1
 
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            this.WindowState= FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Minimized;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
