@@ -25,12 +25,12 @@ namespace Main1
 
         private void bttnCambiarTexto2_Click(object sender, EventArgs e)
         {
-            label2.Text = "hola";
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label3.Text = "hola";
+            
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
