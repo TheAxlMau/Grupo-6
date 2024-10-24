@@ -51,3 +51,4 @@ C:\Users\crist\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.FormVe
 =======
 C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.Productos.resources
 >>>>>>> main
+C:\Users\theax\Source\Repos\TheAxlMau\Grupo-6\Main1\Main1\obj\Debug\Main1.FormVentas.resources
