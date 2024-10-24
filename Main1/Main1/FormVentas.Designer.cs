@@ -57,7 +57,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(155, 57);
+            this.label1.Location = new System.Drawing.Point(177, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(536, 55);
@@ -107,22 +107,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(451, 46);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(506, 46);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 15);
+            this.label4.Size = new System.Drawing.Size(158, 18);
             this.label4.TabIndex = 5;
             this.label4.Text = "Precio del Producto";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(486, 61);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(541, 61);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 15);
+            this.label5.Size = new System.Drawing.Size(66, 18);
             this.label5.TabIndex = 6;
             this.label5.Text = "S/: 0.00";
             // 
@@ -136,7 +136,7 @@
             this.ColumnMetodoDePago,
             this.ColumnTotal,
             this.ColumnFecha});
-            this.dataGridView1.Location = new System.Drawing.Point(60, 315);
+            this.dataGridView1.Location = new System.Drawing.Point(41, 305);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -188,7 +188,7 @@
             // 
             // bttnRegistrar
             // 
-            this.bttnRegistrar.Location = new System.Drawing.Point(101, 260);
+            this.bttnRegistrar.Location = new System.Drawing.Point(105, 251);
             this.bttnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.bttnRegistrar.Name = "bttnRegistrar";
             this.bttnRegistrar.Size = new System.Drawing.Size(101, 41);
@@ -198,7 +198,7 @@
             // 
             // bttnAnular
             // 
-            this.bttnAnular.Location = new System.Drawing.Point(251, 260);
+            this.bttnAnular.Location = new System.Drawing.Point(243, 251);
             this.bttnAnular.Margin = new System.Windows.Forms.Padding(2);
             this.bttnAnular.Name = "bttnAnular";
             this.bttnAnular.Size = new System.Drawing.Size(96, 41);
@@ -218,7 +218,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(101, 131);
+            this.groupBox1.Location = new System.Drawing.Point(76, 117);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
