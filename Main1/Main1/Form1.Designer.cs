@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Productos = new System.Windows.Forms.Button();
+            this.btnProductos = new System.Windows.Forms.Button();
             this.bttnCambiarTexto2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -67,21 +67,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             this.SuspendLayout();
             // 
-            // Productos
+            // btnProductos
             // 
-            this.Productos.FlatAppearance.BorderSize = 0;
-            this.Productos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
-            this.Productos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Productos.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Productos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Productos.Location = new System.Drawing.Point(9, 168);
-            this.Productos.Margin = new System.Windows.Forms.Padding(2);
-            this.Productos.Name = "Productos";
-            this.Productos.Size = new System.Drawing.Size(191, 44);
-            this.Productos.TabIndex = 0;
-            this.Productos.Text = "Productos";
-            this.Productos.UseVisualStyleBackColor = true;
-            this.Productos.Click += new System.EventHandler(this.bttnCambiarTexto_Click);
+            this.btnProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProductos.FlatAppearance.BorderSize = 0;
+            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(156)))), ((int)(((byte)(89)))));
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnProductos.Location = new System.Drawing.Point(9, 168);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(2);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Size = new System.Drawing.Size(191, 44);
+            this.btnProductos.TabIndex = 0;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.bttnCambiarTexto_Click);
             // 
             // bttnCambiarTexto2
             // 
@@ -129,7 +130,7 @@
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.Productos);
+            this.panel1.Controls.Add(this.btnProductos);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -386,7 +387,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Productos;
+        private System.Windows.Forms.Button btnProductos;
         private System.Windows.Forms.Button bttnCambiarTexto2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
