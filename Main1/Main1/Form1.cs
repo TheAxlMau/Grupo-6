@@ -82,5 +82,15 @@ namespace Main1
             fh.Show();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new FormCliente());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new Inventario());
+        }
     }
 }
