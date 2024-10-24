@@ -64,6 +64,12 @@
     <Compile Include="FormRama4.Designer.cs">
       <DependentUpon>FormRama4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Factura.resx">
@@ -83,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +103,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2024-10-23 a las 18.15.14_5058afa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Proyecto nuevo %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Proyecto nuevo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Proyecto nuevo %284%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
